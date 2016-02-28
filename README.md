@@ -21,14 +21,13 @@ A complete framework for numerical computing based on LuaJIT which combines the 
 <tr><td><code><a href="http://www.scilua.org/sci_mcmc.html">sci.mcmc</a></code></td><td>MCMC algorithms</td></tr>
 </table>
 
-## Install
+## Install and Use
 
-This module is included in the [ULua](http://ulua.io) distribution, to install it use:
+This module is included and optimized in [BeeLife](http://foura.io) as one of modules from its distributed computation platform, to use it:
 ```
-upkg add sci
+sci = require 'sci.[modules]' (example : require 'sci.diff')
 ```
 
-Alternatively, manually install this module making sure that all dependencies listed in the `require` section of [`__meta.lua`](__meta.lua) are installed as well (dependencies starting with `clib_` are standard C dynamic libraries).
 
 ## Documentation
 
